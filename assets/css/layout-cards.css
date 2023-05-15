@@ -1,0 +1,70 @@
+.header h2 {
+    background-color: #FFF6C3;
+}
+main {
+    background-image: url(../images/fundo.svg);
+    background-size: cover;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+    row-gap: 3vw;
+}
+.cards-img{
+    width: 90%;
+    border-radius: 50px 50px 0 0;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin: auto;
+    margin-top: 2px;
+}
+.cards {
+    border-radius: 20px 20px 0 0;
+    margin:auto;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    width: 30vw;
+    max-width: 400px;
+    padding: 1rem;
+}
+.cards h3 {
+    color: #c40008;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.cards p {
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+.cards a {
+    width: 40px;
+    margin-top: 8px;
+    padding: 5px;
+    align-self: flex-end;
+}
+.cards a:hover {
+    transform: scale(1.1);
+} 
+@media screen and (max-width: 769px) {
+    header h2 {
+        background-color: #FFF3Ad;
+    }
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cards {
+        width: 45vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .cards {
+        width: 90vw;
+    }
+}

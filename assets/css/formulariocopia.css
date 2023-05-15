@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800&display=swap');
+
+/* Fonte 'Montserrat' */
+
+*{box-sizing: border-box;}
+
+*{ margin: 0;
+    padding: 0;
+ }
+
+img{max-width: 100%;}
+
+html{ font-size: 16px;}
+
+body{   
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Formulario */
+#formulario{   
+    width: 50%;
+    font-size: 0,3rem;
+    margin: auto;    
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    justify-content: center;
+    color: #000000;
+    border: 1px solid red ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    padding: 20px 20px 20px;  
+    background-color: aqua;   
+}
+
+input, select, button, textarea{
+   
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    background-color: #ffffff;
+    
+}
+
+.formulario__campo{
+    margin-bottom: 5px;
+}
+
+.formulario__campo label{
+    margin-top: 5px;  
+    display: block;
+}
+
+.formulario__campo input[type="email"], .formulario__campo input[type="text"], .formulario__campo input[type="tel"],textarea {
+    padding: 5px ;
+    border: 1px solid #87cefa ;
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+button{
+    /* font-size: 0,2rem; */
+    background: #c40008;
+    border: 0;
+    padding: 6px 6px 6px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin-top: 10px;
+   } 

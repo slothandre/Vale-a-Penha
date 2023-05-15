@@ -1,0 +1,41 @@
+.container {
+    background-image: url(../images/fundo.svg);
+    background-size: cover;
+    width: 90vw;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;  
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+#nome,
+#email,
+#mensagem,
+#tel {
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+#mensagem {
+    height: 200px;
+    resize: none;
+}
+#submit {
+    margin: auto;
+    width: 100px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    font-weight: 600;
+}
+#submit:hover {
+    background-color: #c40008;
+    color: #FFF;
+    cursor: pointer;
+}

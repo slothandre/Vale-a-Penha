@@ -1,0 +1,67 @@
+.container{
+    background-color: #FFF6C3;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+
+ } 
+
+ .esquerda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    
+}
+
+.direita{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+article img {
+    max-width: 300px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    border-radius: 70px 0 70px 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 779px) {
+    header h2 {
+        background-color: beige;
+        width: 280px;
+        margin: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: 25px;
+    }
+
+    header h1 {font-size: 32px;}
+
+    
+.container {
+        background-color: #FFF6C3;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        margin: auto;
+        width: 79%;
+        padding: 30px;
+    }
+
+    
+}
+
+.educacaotituloeparagrafo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
